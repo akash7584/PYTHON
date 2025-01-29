@@ -15,17 +15,17 @@ plt.title("salary bast an exp",fontdict=font3)
 plt.grid(color='red')
 
 
-# y=np.array([8,19,3,7,46,18])
-# x=np.array([2019,2020,2021,2022,2023,2024])
-# plt.subplot(3,3,2)
-# plt.plot(x,y,'*--g')
-# f1={'family':'serif','color':'b','size':7}
-# f2={'family':'serif','color':'b','size':7}
-# f3={'family':'serif','color':'b','size':10}
-# plt.xlabel("TCS",fontdict=f1)
-# plt.ylabel("year",fontdict=f2)
-# plt.title("year/TCS",fontdict=f3)
-# plt.grid(color='k')
+y=np.array([8,19,3,7,46,18])
+x=np.array([2019,2020,2021,2022,2023,2024])
+plt.subplot(3,3,2)
+plt.plot(x,y,'*--g')
+f1={'family':'serif','color':'b','size':7}
+f2={'family':'serif','color':'b','size':7}
+f3={'family':'serif','color':'b','size':10}
+plt.xlabel("TCS",fontdict=f1)
+plt.ylabel("year",fontdict=f2)
+plt.title("year/TCS",fontdict=f3)
+plt.grid(color='k')
 
 # x=np.array(['TCS','TATA','WIPRO','SAMSUNG','PW','OPTUM'])
 # y=np.array([10,5,19,3,7,10])
